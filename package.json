@@ -6,13 +6,14 @@
   "license": "MIT",
   "devDependencies": {
     "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
     "http-server": "^14.1.1",
     "style-loader": "^3.3.1",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
   },
   "scripts": {
-    "start": "npx http-server . -p 12345",
+    "start": "npx http-server ./dist/ -p 12345",
     "build": "webpack",
     "clear": "rm -r ./dist/"
   }
