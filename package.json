@@ -16,5 +16,8 @@
     "start": "npx http-server ./dist/ -p 12345",
     "build": "webpack",
     "clear": "rm -r ./dist/"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
